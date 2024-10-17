@@ -1,0 +1,66 @@
+.Navbar{
+    padding: 20px 0px ; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+     height: 80px; 
+   
+} 
+.Navbar .Logo{
+    width: 100px; 
+       
+}
+.navbar-menu{
+ 
+    display: flex; 
+    list-style: none; 
+    gap: 30px;
+    color: #494949; 
+    font-size: 18px;
+}  
+
+.navbar-right{
+    display: flex; 
+    text-align: center;
+    gap: 40px;
+} 
+
+
+.Navbar button{
+    background-color: transparent; 
+    font-size: 16px;
+    color: #494949;
+    border: 1px solid tomato; 
+    padding: 10px 30px; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition-property: 0.3s;
+} 
+.Navbar button:hover{
+    background-color: tomato; 
+    color: white;
+} 
+
+.Navbar .active{
+    padding-bottom: 2px; 
+    border-bottom: 2px solid #494949;
+} 
+.Navbar li{
+    cursor: pointer;
+}
+
+.navbar-serach-icon{
+    position: relative;
+} 
+.navbar-serach-icon .dot{
+    position: absolute; 
+    min-width: 10px; 
+    min-height: 10px; 
+    background-color: tomato; 
+    border-radius: 5px; 
+    top: -8px;
+    right: -8px;
+    
+
+
+}
