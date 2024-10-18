@@ -1,0 +1,19 @@
+.qoute-content{
+    margin: auto auto ; 
+    margin-top: 50px; 
+    font-size: max(3vw ,20px); 
+    text-align: center; 
+    font-weight: 500;
+    gap: 20px; 
+    animation: fadeIn 3s; 
+    text-shadow:  1px 1px rgb(113, 110, 110);
+} 
+
+.next-line {
+    display: block; 
+    padding-left: 250px; 
+    padding-bottom: 25px;
+} 
+.good{
+    padding-right : 250px;
+}
