@@ -24,7 +24,11 @@
     display: flex; 
     text-align: center;
     gap: 40px;
-} 
+}  
+
+a{
+    text-decoration: none;
+}
 
 
 .Navbar button{

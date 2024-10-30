@@ -3,7 +3,7 @@ import './Quote.css'
 
 const Quote = () => {
   return (
-    <div className='qoute-content'> 
+    <div className='qoute-content' id='Quote'> 
        <p>
         <p className='good'> Good Food ,</p>  
         <p class="next-line">Good Mood</p>
